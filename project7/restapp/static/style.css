@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+body{
+    background-image: url("luxury-bar-illuminated-by-modern-lighting-equipment-generated-by-ai.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+    
+}
+.wel{
+  text-align: center;
+  margin: 20%;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  
+}
+
+
+
+.menu-page{
+  background-image: url("vegetables-set-left-black-slate.jpg");
+}
+
+.header{
+
+    text-align: center;
+ color: #FFF8DC;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.bar{
+     background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    text-align: center;
+    padding: 0.5rem 0;
+    
+}
+.bar a{
+      color:white;
+            text-decoration: none;
+            margin:32px;
+            font-size: 1.1rem;
+}
+.bar a:hover{
+  font-size: medium;
+ background-color:rgb(227, 76, 17);
+ padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 0 30px rgb(227, 76, 17), 0 0 30px rgb(227, 76, 17), 0 0 30px rgb(227, 76, 17);
+color: rgb(19, 19, 18);
+}
+
+
+
+
+
+/* ===== menu.css ===== */
+
+
+nav {
+  background:rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  text-align: center;
+  transition: color 0.3s ease;
+
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a:hover{
+  font-size: medium;
+ background-color:gold;
+ padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 0 30px gold, 0 0 30px gold, 0 0 30px gold;
+color: rgb(19, 19, 18);
+
+}
+
+nav ul li a {
+  color: #f5f2f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-page nav ul li a:hover{
+ font-size: medium;
+ background-color:#001F3F;
+ padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 0 30px #001F3F, 0 0 10px #f7f9fa, 0 0 30px #001F3F;
+color: rgb(245, 245, 244);
+
+
+}
+
+
+
+
+
+
+
+
+.page-title{
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  font-size: xx-large;
+  color: yellow;
+  letter-spacing: 2px;
+}
+
+
+.menu-grid, .team-grid {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  padding: 50px 10%;
+}
+.menu-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 30px rgba(255,215,0,0.4);
+}
+
+
+
+.menu-item, .team-member {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item img, .team-member img {
+   background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 15px;
+  text-align: center;
+  padding:3px;
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item p, .team-member h3 {
+  color: gold;
+  font-weight: 500;
+  padding-top: px;
+}
+
+.team-section h2 {
+  color: #f2c94c;
+}
+
+/*About.css */
+.admin-page{
+  background-image: url("broken-bio-cardboard-fork-copy-space.jpg");
+}
+
+.team-member:hover{
+   transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(255,215,0,0.4);
+}
+
+nav ul li a:hover{
+  font-size: medium;
+ background-color:gold;
+ padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 0 30px gold, 0 0 30px gold, 0 0 30px gold;
+color: rgb(19, 19, 18);
+
+}
+.team-section h2 {
+  color: #f2c94c;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+
+/*contact.css*/
+body.contact-page {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('admin.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px 20px;
+  min-height: 100vh;
+}
+
+.contact-info, .contact-form {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.contact-info h1 {
+  color: #f2c94c;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #f2c94c;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-page nav ul li a:hover{
+font-size: medium;
+ background-color:#000000;
+ padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 0 30px #f1f2f3, 0 0 10px #f7f9fa, 0 0 30px #e6e7e8;
+color: rgb(245, 245, 244);
+}
+
+
+
